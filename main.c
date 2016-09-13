@@ -3,12 +3,6 @@
 #include <avr/sleep.h>
 
 /**
- * Implementing a real time clock for the ATMega 48 series.
- * Adapted from the "AVR134: Real Time Clock (RTC) Using the
- * Asynchronous Timer)" document release by Atmel for the ATMega 128.
- */
-
-/**
  * Use a partial implementation to find leap years. This will only work for up
  * to year 2100. If you expect your product to work past the year 2100 or want
  * a full implementation anyway, comment out this define.
